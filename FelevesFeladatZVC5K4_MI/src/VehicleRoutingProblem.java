@@ -10,13 +10,13 @@ public class VehicleRoutingProblem {
         //int townNumb = 20;
         //int townNumb = 50;
         //int townNumb = 100;
-        int townNumb = 200;
-        //int townNumb = 500;
+        //int townNumb = 200;
+        int townNumb = 500;
 
         //int courier = 1;
-        int courier = 2;
+        //int courier = 2;
         //int courier = 4;
-        //int courier = 5;
+        int courier = 5;
 
         Random random = new Random();
         IntStream.range(0, townNumb)

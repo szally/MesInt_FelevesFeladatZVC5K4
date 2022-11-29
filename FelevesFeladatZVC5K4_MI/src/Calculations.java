@@ -104,7 +104,7 @@ public class Calculations {
             }
             taboo.add(Arrays.stream(actualRow).toArray());
             if (taboo.stream().count() > tabooMax) {
-                for (int j = 0; j > tabooMax; j++) {
+                for (int j = 0; j < tabooMax; j++) {
                     taboo.remove(taboo.get(0));
                 }
             }
